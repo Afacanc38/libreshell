@@ -25,6 +25,7 @@ try:
     print("\nCopyright (C) 2021 Alperen İsa Nalbant.")
     print("Bu programın KESİNLİKLE HİÇBİR TEMİNATI YOKTUR, ayrıntılar için \"license\" komutunu girin.")
     print("Bu bir özgür yazılımdır, ve bazı koşullar altında yeniden dağıtmakta serbestsiniz; ayrıntılar için \"free-sw\" yazın. ")
+    print("\nYardım için \"help\" komutunu kullanın.")
     def main():
         while True:
             command = input("\033[1;34mlibreshell>\033[0m ")   
@@ -34,11 +35,11 @@ try:
                 print("libreshell: Python ile yazılmış küçük bir komut satırı programı.")
                 print("\nKullanım: <komut>")
                 print("\nBasit komutlar:")
-                print("     cd: Çalıştığınız dizini değiştirir.")
-                print("     ls/list/dir: Bulunduğunuz dizinin içerisindeki dosya ve klasörleri listeler")
-                print("     whoami: Kullanıcı adınızı uçbirime yazdırır.")
-                print("     pwd: Bulunduğunuz dizinin konumunu yazdırır.")
-                print("     clear/cls: Uçbirim ekranını temizler.")
+                print("     cd:             Çalıştığınız dizini değiştirir.")
+                print("     ls/list/dir:    Bulunduğunuz dizinin içerisindeki dosya ve klasörleri listeler")
+                print("     whoami:         Kullanıcı adınızı uçbirime yazdırır.")
+                print("     pwd:            Bulunduğunuz dizinin konumunu yazdırır.")
+                print("     clear/cls:      Uçbirim ekranını temizler.")
             elif command == "ls" or command == "dir" or command == "list":
                 execute("ls --color=auto")
             elif command == "cls":
