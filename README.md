@@ -6,5 +6,5 @@ UNIX benzeri işletim sistemleri için hazırlanmış küçük bir komut satrı 
 ```
 git clone https://github.com/Afacanc38/libreshell.git
 cd libreshell
-python shell.py
+python3 shell.py
 ```
